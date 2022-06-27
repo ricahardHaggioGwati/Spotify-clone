@@ -1,28 +1,39 @@
 .svg {
-    fill: #fff;
-    width: 140px;
+	fill: #fff;
+	width: 140px;
 }
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    min-height: 10vh;
-    background-color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 10vh;
+	background-color: #000;
 }
 .nav_links a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-    padding: .5rem 1.5rem;
-    font-size: .95rem;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	padding: 0.5rem 1.5rem;
+	font-size: 0.95rem;
 }
+
 .line {
-    display: inline-block;
-    width: 1px;
-    height: 1rem;
-    background-color: #fff;
+	display: inline-block;
+	width: 1px;
+	height: 1rem;
+	background-color: #fff;
 }
 .nav_links a:hover,
 .nav_links a:hover i {
-    color: #1ED760;
+	color: #1ed760;
+}
+
+@media (max-width: 991px) {
+	.nav_links {
+		display: none;
+	}
+	.nav_links a {
+		display: block;
+		margin-bottom: 1rem;
+	}
 }
