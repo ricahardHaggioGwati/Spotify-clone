@@ -1,7 +1,7 @@
 import classes from './Nav.module.css';
 import Link from 'next/link';
-import SvgComponent from './SvgComponent';
-import MobileNav from './MobileNav';
+import SvgComponent from './Ui/SvgComponent';
+import MobileNav from './Ui/MobileNav';
 
 const Nav: React.FC = () => {
 	return (

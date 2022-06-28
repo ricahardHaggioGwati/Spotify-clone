@@ -6,7 +6,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	min-height: 10vh;
+	min-height: 8vh;
 	background-color: #000;
 }
 .nav_links a {
@@ -20,7 +20,7 @@
 .line {
 	display: inline-block;
 	width: 1px;
-	height: 1rem;
+	height: 0.8rem;
 	background-color: #fff;
 }
 .nav_links a:hover,
