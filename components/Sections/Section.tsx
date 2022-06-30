@@ -1,4 +1,4 @@
-import Button from './Ui/Button';
+import Button from '../Ui/Button';
 import Link from 'next/link';
 import classes from './Section.module.css';
 

@@ -1,0 +1,25 @@
+.premium_section {
+    background-color: #ffffff;
+}
+
+.premium_content {
+    margin: 0px 366.5px;
+    padding: 75px 15px;
+    text-align: left;
+}
+
+.premium_header {
+    line-height: 24px;
+    margin: 0px 0px 72px;
+    text-align: center;
+}
+
+.premium_header h2 {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: -0.6px;
+    line-height: 46px;
+    margin: 0px 235px;
+    text-align: center;
+}
+
