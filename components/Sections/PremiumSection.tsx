@@ -9,14 +9,16 @@ const PremiumSection = () => {
 				<header className={classes.premium_header}>
 					<h2>Why go Premium?</h2>
 				</header>
-				{PremiumItemsData.map((item) => (
-					<PremiumItem
-						key={item.id}
-						image={item.image}
-						text={item.text}
-						title={item.title}
-					/>
-				))}
+				<ul className={classes.premium_list}>
+					{PremiumItemsData.map((item) => (
+						<PremiumItem
+							key={item.id}
+							image={item.image}
+							text={item.text}
+							title={item.title}
+						/>
+					))}
+				</ul>
 			</article>
 		</section>
 	);

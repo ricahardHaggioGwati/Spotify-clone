@@ -8,7 +8,7 @@ interface Item {
 
 const PremiumItem: React.FC<Item> = ({ title, text, image }) => {
     return (
-        <div className={classes.premium_item}>
+        <li className={classes.premium_item}>
             <div className={classes.premium_item__image}>
                 <img src={image} alt={title} />
             </div>
@@ -16,7 +16,7 @@ const PremiumItem: React.FC<Item> = ({ title, text, image }) => {
                 <h5>{title}</h5>
                 <p>{text}</p>
             </div>
-        </div>
+        </li>
     );
 }
 

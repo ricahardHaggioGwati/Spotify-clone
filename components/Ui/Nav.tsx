@@ -1,12 +1,12 @@
 import classes from './Nav.module.css';
 import Link from 'next/link';
-import SvgComponent from './SvgComponent';
+import SvgLogoComponent from './SvgComponent';
 import MobileNav from './MobileNav';
 
 const Nav: React.FC = () => {
 	return (
 		<nav className={classes.nav}>
-			<SvgComponent className={classes.svg} />
+			<SvgLogoComponent className={classes.svg} />
 			<ul className={classes.nav_links}>
 				<Link href='/'>Premium</Link>
 				<Link href='/'>Support</Link>
