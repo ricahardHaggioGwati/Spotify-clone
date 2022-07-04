@@ -1,8 +1,8 @@
 import { Fragment } from 'react';
 import Link from 'next/link';
 import classes from './PlanItem.module.css';
-import Button from '../Ui/Button';
-import SvgTickComponenet from '../Ui/SvgTickComponenet';
+import BlackButton  from '../../Ui/Button';
+import SvgTickComponenet from '../../Ui/SvgTickComponenet';
 
 interface Item {
 	type: string[];
@@ -30,11 +30,11 @@ const PlanItem: React.FC<Item> = ({
 	return (
 		<Fragment>
 			<div className={classes.plan_head}>
-				<ul>
+				<ul className={classes.plan_list}>
 					{span && <li className={classes.plan_blue_list}>{type[1]}</li>}
-					<li className={classes.plan_plain_list}>{type[0]}</li>
+					<li className={classes.plan_white_list}>{type[0]}</li>
 				</ul>
-				<h3 className={classes.plan_title}>{title}</h3>
+				<h3>{title}</h3>
 				<p className={classes.first_description}>{description[0]}</p>
 				<p className={classes.second_description}>{description[1]}</p>
 				<hr className={classes.rule}></hr>
@@ -42,7 +42,7 @@ const PlanItem: React.FC<Item> = ({
 			<ul className={classes.list_option}>
 				{content.map((item) => (
 					<li key={Math.random.toString() + item}>
-						<div>
+						<div className={classes.list_svg}>
 							<SvgTickComponenet className={classes.list_tick} />
 						</div>
 						<p>{item}</p>
@@ -50,12 +50,12 @@ const PlanItem: React.FC<Item> = ({
 				))}
 			</ul>
 			<div className={classes.button_container}>
-				<Button text='Get started' color={true} />
+					<BlackButton text='Get started'/>
 			</div>
 			{terms.map((item) => (
 				<div className={classes.terms_container}>
 					<p>
-						<a>{item.hyperLink}</a>
+						<Link href='/'>{item.hyperLink}</Link>
 						{item.text}
 					</p>
 				</div>

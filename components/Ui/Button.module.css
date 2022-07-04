@@ -23,6 +23,11 @@
 	margin-left: 10px;
 }
 
+.white {
+	background-color: #ffffff;
+	border-color: #131010;
+	color: #131010;
+}
 
 .blue:hover {
 	background-color: #1462c1;
@@ -32,6 +37,11 @@
 .black:hover {
 	background-color: #161616;
     animation: button-animation 0.1s forwards;
+}
+
+.white:hover {
+	background-color: #ffffff;
+	animation: button-animation 0.1s forwards;
 }
 
 @keyframes button-animation {

@@ -1,6 +1,6 @@
 import classes from './PlanSection.module.css';
 import PlanItem from '../Items/PlanItem';
-import { PlanItemsData } from '../Data/Data';
+import { PlanItemsData } from '../../Data/Data';
 
 const PlanSection: React.FC = () => {
 	return (

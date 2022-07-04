@@ -1,4 +1,4 @@
-import Button from '../Ui/Button';
+import BlackButton, {BlueButton} from '../../Ui/Button';
 import Link from 'next/link';
 import classes from './Section.module.css';
 
@@ -11,8 +11,8 @@ const Section = () => {
                     <br></br>
 					<h2>Just R59.99/month after. Cancel anytime.</h2>
 					<div id={classes.buttons}>
-						<Button text='Get Started' color={true} />
-                        <Button text='View Plans' color={false} />
+						<BlackButton text='Get Started'/>
+                        <BlueButton text='View Plans'/>
 					</div>
 					<p><Link href='/'>Terms and conditions apply</Link>. 1 month free not available for users who have already tried Premium.</p>
 				</div>

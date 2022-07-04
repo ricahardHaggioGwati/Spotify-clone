@@ -1,0 +1,48 @@
+.student_plan_container {
+    overflow-wrap: break-word;
+    text-align: left;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    margin: 32px auto 0px;
+    max-width: 66%;
+}
+
+.student_plan_item {
+     color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    border-radius: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    box-shadow: none;
+    display: flex;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 14px 0px 16px;
+    margin: 0px 16px;
+    border: none;
+}
+
+.student_plan_item h3 {
+    list-style: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    margin-block: 0px;
+    color: inherit;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px 0px 5px;
+    padding: 0px;
+}
+
+.student_plan_item div {
+    overflow-wrap: break-word;
+    color: rgb(0, 0, 0);
+    list-style: none;
+}

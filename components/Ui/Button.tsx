@@ -2,17 +2,25 @@ import classes from './Button.module.css';
 
 interface Prop {
 	text: string;
-	color: boolean;
 }
 
-const Button: React.FC<Prop> = ({ text, color }) => {
+const BlackButton: React.FC<Prop> = ({ text }) => {
 	return (
-		<button
-			className={`${classes.button} ${color ? classes.black : classes.blue}`}
-		>
-			{text}
-		</button>
+		<button className={`${classes.button} ${classes.black}`}>{text}</button>
 	);
 };
 
-export default Button;
+export const BlueButton: React.FC<Prop> = ({ text }) => {
+	return (
+		<button className={`${classes.button} ${classes.blue}`}>{text}</button>
+	);
+};
+
+export const WhiteButton: React.FC<Prop> = ({ text }) => {
+	return (
+		<button className={`${classes.button} ${classes.white}`}>{text}</button>
+	);
+};
+
+
+export default BlackButton;

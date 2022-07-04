@@ -1,6 +1,6 @@
 import classes from './PremiumSection.module.css';
 import PremiumItem from '../Items/PremiumItem';
-import { PremiumItemsData } from '../Data/Data';
+import { PremiumItemsData } from '../../Data/Data';
 
 const PremiumSection = () => {
 	return (

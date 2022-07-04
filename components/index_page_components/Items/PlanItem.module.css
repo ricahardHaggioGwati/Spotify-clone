@@ -1,0 +1,202 @@
+.plan_head {
+    overflow-wrap: break-word;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    width: auto;
+    margin: 0px 16px 0px 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    grid-row: 1 / auto;
+    padding-top: 16px;
+}
+
+.plan_list {
+    overflow-wrap: break-word;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+
+.plan_blue_list {
+    overflow-wrap: break-word;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 600;
+    margin: 0px 4px 10px 0px;
+    margin-block: 0px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 119, 208);
+}
+
+.plan_white_list {
+    overflow-wrap: break-word;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 700;
+    margin: 0px 4px 10px 0px;
+    margin-block: 0px 10px;
+    color: rgb(46, 119, 208);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(46, 119, 208);
+    margin-right: 0px;
+}
+
+.plan_head h3{
+    overflow-wrap: break-word;
+    text-align: left;
+    box-sizing: border-box;
+    margin-block: 0px;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 1.4rem;
+    font-weight: 550;
+    line-height: 24px;
+    margin: 0px 0px 5px;
+    padding: 0px;
+}
+
+.first_description {
+    overflow-wrap: break-word;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 0.93rem;
+    line-height: 22px;
+    margin: 0px 0px 2px;
+}
+
+.second_description {
+    overflow-wrap: break-word;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 0.93rem;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0px 0px 2px;
+    margin-bottom: 20px;
+}
+
+.rule {
+    overflow-wrap: break-word;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    align-self: stretch;
+    border-color: rgb(204, 204, 204);
+    margin: auto 0px 0px;
+}
+
+.list_option {
+    overflow-wrap: break-word;
+    background-color: #fff;
+    text-align: left;
+    max-width: 400px;
+    width: auto;
+    font-size: 0.93rem;
+    margin: 0px 16px 0px 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    margin-top: 0px;
+    grid-row: 2 / auto;
+    padding-top: 20px;
+}
+
+.list_option li {
+    overflow-wrap: break-word;
+    list-style: none;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.list_option p {
+    overflow-wrap: break-word;
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+    list-style: none;
+    margin-left: 1px;
+    padding: 0px;
+}
+
+.list_svg{
+    padding: 0px 10px 0px 0px;
+    text-align: left;
+}
+
+.list_tick {
+    display: inline;
+    text-align: left;
+}
+
+.button_container {
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    width: auto;
+    margin: 0px 16px 0px 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: rgb(255, 255, 255) 0px -9px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    text-align: center;
+    grid-row: 3 / auto / auto / auto;
+    padding-bottom: 10px;
+}
+
+.terms_container {
+    overflow-wrap: break-word;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    width: auto;
+    margin: 0px 16px 0px 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgb(255, 255, 255) 0px -9px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    margin-bottom: 16px;
+    grid-row: 4 / auto;
+    padding-top: 0px;
+    padding-bottom: 16px;
+}
+
+.terms_container p {
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    margin-block: 0px;
+    text-transform: none;
+    letter-spacing: normal;
+    margin-top: 12px;
+    color: rgb(83, 83, 83);
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.terms_container a {
+    overflow-wrap: break-word;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(81, 79, 79);
+    text-decoration: underline;
+}
+
