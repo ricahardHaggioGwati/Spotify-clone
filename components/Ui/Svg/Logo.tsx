@@ -2,7 +2,7 @@ interface Props {
     className: string;
   }
 
-const SvgLogoComponent: React.FC<Props> = ({className}) => { 
+const Logo: React.FC<Props> = ({className}) => { 
     return <svg  className={className} viewBox="0 0 63 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet">
     <g fillRule="evenodd" className='svelte-1gcdbl9'>
         <path
@@ -12,4 +12,4 @@ const SvgLogoComponent: React.FC<Props> = ({className}) => {
 </svg>
 }
 
-export default SvgLogoComponent;
+export default Logo;

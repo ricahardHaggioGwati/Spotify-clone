@@ -1,6 +1,7 @@
 import classes from './PlanSection.module.css';
 import PlanItem from '../Items/PlanItem';
 import { PlanItemsData } from '../../Data/Data';
+import StudentItem from '../Items/StudentItem';
 
 const PlanSection: React.FC = () => {
 	return (
@@ -22,6 +23,7 @@ const PlanSection: React.FC = () => {
 						/>
 					))}
 				</div>
+				<StudentItem/>
 			</article>
 		</section>
 	);

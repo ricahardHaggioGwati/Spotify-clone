@@ -1,7 +1,7 @@
 import classes from './MobileNav.module.css';
 import { useState } from 'react';
 import Link from 'next/link';
-import SvgLogoComponent from './SvgComponent';
+import Logo from './Svg/Logo';
 
 const MobileNav = () => {
 	const [isActive, setIsActive] = useState(false);
@@ -24,7 +24,7 @@ const MobileNav = () => {
 				<hr className={classes.line}></hr>
 				<Link href='/'>Sign up</Link>
 				<Link href='/'>Log in</Link>
-				<SvgLogoComponent className={classes.svg} />
+				<Logo className={classes.svg} />
 			</nav>
 			
 		</header>

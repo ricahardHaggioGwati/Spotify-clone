@@ -1,8 +1,9 @@
 import type { NextPage } from 'next';
 import Nav from '../components/Ui/Nav';
+import Footer from '../components/Ui/Footer';
 import Section from '../components/index_page_components/Sections/Section';
-import PremiumSection from '../components/index_page_components/Sections/PremiumSection';
 import PlanSection from '../components/index_page_components/Sections/PlanSection';
+import PremiumSection from '../components/index_page_components/Sections/PremiumSection';
 
 const Home: NextPage = () => {
 	return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
 			<Section />
 			<PremiumSection />
 			<PlanSection />
+			<Footer/>
 		</>
 	);
 };

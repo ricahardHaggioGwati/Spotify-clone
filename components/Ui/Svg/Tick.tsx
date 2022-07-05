@@ -2,7 +2,7 @@ interface Props {
 	className: string;
 }
 
-const SvgTickComponenet: React.FC<Props> = ({ className }) => {
+const Tick: React.FC<Props> = ({ className }) => {
 	return (
 		<svg
 			className={className}
@@ -16,4 +16,4 @@ const SvgTickComponenet: React.FC<Props> = ({ className }) => {
 		</svg>
 	);
 };
-export default SvgTickComponenet;
+export default Tick;

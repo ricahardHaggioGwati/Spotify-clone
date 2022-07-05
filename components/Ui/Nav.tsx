@@ -1,6 +1,6 @@
 import classes from './Nav.module.css';
 import Link from 'next/link';
-import SvgLogoComponent from './SvgComponent';
+import SvgLogoComponent from './Svg/Logo';
 import MobileNav from './MobileNav';
 
 const Nav: React.FC = () => {

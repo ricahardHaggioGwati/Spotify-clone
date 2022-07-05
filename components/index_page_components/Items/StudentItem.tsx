@@ -1,5 +1,5 @@
 import classes from './StudentItem.module.css';
-import { WhiteButton } from '../Ui/Button';
+import { WhiteButton } from '../../Ui/Button';
 
 const StudentItem: React.FC = () => {
 	return (

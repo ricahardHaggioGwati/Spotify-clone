@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 import Link from 'next/link';
 import classes from './PlanItem.module.css';
 import BlackButton  from '../../Ui/Button';
-import SvgTickComponenet from '../../Ui/SvgTickComponenet';
+import Tick from '../../Ui/Svg/Tick';
 
 interface Item {
 	type: string[];
@@ -43,7 +43,7 @@ const PlanItem: React.FC<Item> = ({
 				{content.map((item) => (
 					<li key={Math.random.toString() + item}>
 						<div className={classes.list_svg}>
-							<SvgTickComponenet className={classes.list_tick} />
+							<Tick className={classes.list_tick} />
 						</div>
 						<p>{item}</p>
 					</li>
