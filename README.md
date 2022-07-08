@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spotify clone
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This is a clone of the Spotify landing page. It is a duplicate of the original page that can be found [here](https://www.spotify.com/za-en/premium/?_ga=2.133644686.1624025122.1657265731-1388336345.1655642287&_gac=1.120122874.1657024033.CjwKCAjwwo-WBhAMEiwAV4dyba2zBPO1V0-7VkFVs8HEPqp4JGLsykztIjiQ5VW8Vg9DjWc9LUi-5RoC_PQQAvD_BwE). This page has really demostrated the power of the [React](https://reactjs.org/) framework along side [Next.js](https://nextjs.org/docs/api-reference/create-next-app).
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Dependencies
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Typescript](https://www.typescriptlang.org/)
+[Next.js](https://nextjs.org/docs/api-reference/create-next-app)
+[React](https://reactjs.org/)
+[@fortawesome/free-brands-svg-icons](https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons)
+[@fortawesome/react-fontawesome](https://fontawesome.com/v5/docs/web/use-with/react)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Additional Information
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Building this project really demonstrated the need for a CSS framework like [Tailwind CSS](https://tailwindcss.com/). The overall amount of CSS that is used in this project is quite small but becomes increasingly complex as the project grows. I really want to continue to improve the CSS and add more features to it. I will continue to work on this project as I learn more about the Tailwind framework. I want to make it as close as possible to the original Spotify page.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contributing
 
-## Learn More
+I would love any and all feedback on this project. I am open to any and all suggestions on how to improve this project.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding! 🛩️

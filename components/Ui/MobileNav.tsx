@@ -14,10 +14,14 @@ const MobileNav = () => {
 		<header className={classes.mobile}>
 			<button
 				onClick={toggleActive}
-				className={`${classes.hamburger} ${isActive ? classes.active : ''}`}>
+				className={`${classes.hamburger} ${isActive ? classes.active : ''}`}
+			>
 				<div className={classes.bar}></div>
 			</button>
-			<nav className={`${classes.mobile_nav} ${isActive ? classes.active : ''}`}>
+			<div className={` ${classes.grey_background} ${isActive ? classes.active : ''}`} onClick={toggleActive}></div>
+			<nav
+				className={`${classes.mobile_nav} ${isActive ? classes.active : ''}`}
+			>
 				<Link href='/'>Premium</Link>
 				<Link href='/'>Support</Link>
 				<Link href='/'>Download</Link>
@@ -26,7 +30,6 @@ const MobileNav = () => {
 				<Link href='/'>Log in</Link>
 				<Logo className={classes.svg} />
 			</nav>
-			
 		</header>
 	);
 };

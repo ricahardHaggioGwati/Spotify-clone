@@ -6,7 +6,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	min-height: 8vh;
+	height: 8vh;
+	min-width: 100vw;
 	background-color: #000;
 }
 .nav_links a {
@@ -29,11 +30,31 @@
 }
 
 @media (max-width: 991px) {
+	.nav {
+		height: 5vh;
+	}
+
 	.nav_links {
 		display: none;
 	}
 	.nav_links a {
 		display: block;
 		margin-bottom: 1rem;
+	}
+
+	.svg {
+		width: 90px;
+		margin-right: 100px;
+	}
+}
+
+@media (max-width: 503px) {
+	.nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		min-width: 100vw;
+		background-color: #000;
+		width: fit-content;
 	}
 }

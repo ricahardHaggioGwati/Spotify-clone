@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 			<Section />
 			<PremiumSection />
 			<PlanSection />
-			<Footer/>
+			<Footer />
 		</>
 	);
 };
