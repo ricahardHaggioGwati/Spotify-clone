@@ -6,11 +6,11 @@ This is a clone of the Spotify landing page. It is a duplicate of the original p
 
 ## Dependencies
 
-[Typescript](https://www.typescriptlang.org/)
-[Next.js](https://nextjs.org/docs/api-reference/create-next-app)
-[React](https://reactjs.org/)
-[@fortawesome/free-brands-svg-icons](https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons)
-[@fortawesome/react-fontawesome](https://fontawesome.com/v5/docs/web/use-with/react)
+[Typescript](https://www.typescriptlang.org/).
+[Next.js](https://nextjs.org/docs/api-reference/create-next-app).
+[React](https://reactjs.org/).
+[@fortawesome/free-brands-svg-icons](https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons).
+[@fortawesome/react-fontawesome](https://fontawesome.com/v5/docs/web/use-with/react).
 
 ## Additional Information
 
